@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import NavProfile from './navProfile';
-import BookingSearchForm from './bookingSearchForm';
 
 class Nav extends React.Component {
   constructor(props) {

@@ -21,7 +21,7 @@ const Layout = (props) => (
     {getConfig().publicRuntimeConfig.isTestMode && (
       <div className="api-warning">
         <p>
-          Kavholm is currently in test-mode. Only test cards can be used and no
+          Guinness Gifter is currently in test-mode. Only test cards can be used and no
           real transations are processsed.
         </p>
       </div>
@@ -75,8 +75,8 @@ const Layout = (props) => (
             rgba(255, 255, 255, 0) 50%,
             #ffffff 100%
           ),
-          url(https://images.unsplash.com/photo-1542349301445-c5f6ec562729?ixlib=rb-1.2.1&auto=format&fit=crop&w=2315&q=80)
-            no-repeat; // Source: https://unsplash.com/photos/wh-7GeXxItI
+          url(https://vinepair.com/wp-content/uploads/2019/03/perfect-guinness-header.jpg)
+            no-repeat;
         background-size: cover;
         background-position: center center;
       }
